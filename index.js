@@ -8,7 +8,7 @@ var Word = require('./word.js');
 require('events').EventEmitter.prototype._maxListeners = 100;
 //Word bank and hangman figure
 var Game = {
-  wordList:['SPIDER-MAN','IRONMAN','THOR','INCREDIBLE HULK','ANT MAN','FALCON','HAWKEYE','BLACK WIDOW','ULTRON','CAPTAIN AMERICA','VISION','WASP','LOKI','BLACK PANTHER', 'MANTIS', 'WANDA MAXIMOFF','DOCTOR STRANGE'],
+  wordList:['SPIDER-MAN','IRONMAN','THOR','INCREDIBLE HULK','ANT MAN','FALCON','HAWKEYE','BLACK WIDOW','ULTRON','CAPTAIN AMERICA','VISION','WASP','LOKI','BLACK PANTHER', 'MANTIS', 'WANDA MAXIMOFF','DOCTOR STRANGE', 'THANOS'],
   hangman: ["\n\n\n\n\n\n\n-------------", "\n |\n |\n |\n |\n |\n |\n |\n-------------", "____________\n |         |\n |\n |\n |\n |\n |\n-------------","____________\n |         |\n |         O\n |\n |\n |\n |\n |\n-------------","____________\n |         |\n |         O\n |         |\n |         |\n |\n |\n |\n-------------","____________\n |         |\n |         O\n |         |\n |         |\n |        ---\n |\n |\n-------------", "____________\n |         |\n |         O\n |       __|\n |         |\n |        ---\n |\n |\n-------------", "____________\n |         |\n |         O\n |       __|__\n |         |\n |        ---\n |\n |\n-------------", "____________\n |         |\n |         O\n |       __|__\n |         |\n |        ---\n |        |\n |\n-------------","____________\n |         |\n |         O\n |       __|__\n |         |\n |        ---\n |        | |\n |\n-------------"]
 };
 
